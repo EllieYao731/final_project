@@ -1,0 +1,29 @@
+body {
+  background-color: #fef9f6;
+}
+.ok{
+  text-align: center;
+  margin-top: 200px;
+}
+.oktext{
+  text-align: center;
+}
+.oktext p{
+  margin-top: 30px;
+  font-size: 20px;
+  color: #2f1604;
+}
+.okbuttom {
+  text-align: center;
+  margin: 35px 0px 0px 615px;
+}
+.okbuttom a{
+  text-decoration: none;
+}
+.okbuttom p{
+  width: 200px;
+  font-size: 18px;
+  background-color: #e37f35;
+  color: black;
+  padding: 5px 0px 5px 0px;
+}
