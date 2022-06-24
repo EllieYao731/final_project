@@ -13,7 +13,7 @@
 	$link = mysqli_connect( 
             'localhost',  // MySQL主機名稱 
             'root',       // 使用者名稱 
-            '0068j2*888',  // 密碼 
+            '',  // 密碼 
             'foods');  // 預設使用的資料庫名稱 
 
 	$sql = "SELECT DISTINCT `restaurant`,`restaurant ID`,`introduce`,`picture` FROM foods_search WHERE restaurant LIKE('%" . $search . "%') OR menu LIKE('%" . $search . "%') OR address LIKE('%" . $search . "%') OR introduce LIKE('%" . $search . "%')";
